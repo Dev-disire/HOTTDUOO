@@ -45,7 +45,7 @@
     try {
       if (typeof CONFIG !== 'undefined' && CONFIG.telegram) return CONFIG.telegram;
     } catch (e) { /* CONFIG nao existe ainda, usa fallback */ }
-    return 'BUYHERE7262'; // fallback, so usado se CONFIG nao for encontrado
+    return 'JuliaSeller62'; // fallback, so usado se CONFIG nao for encontrado
   }
 
   function injectPrices() {
